@@ -1,0 +1,13 @@
+%% -*- erlang -*-
+{application, epubsub_client, [
+    {description, "epubsub_client"},
+    {vsn, "1"},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib,
+        lager
+    ]},
+    {mod, {epubsub_client_app, []}},
+    {env, []}
+]}.
